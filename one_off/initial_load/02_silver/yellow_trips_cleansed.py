@@ -18,7 +18,7 @@ df = spark.read.table("nyctaxi.01_bronze.yellow_trips_raw")
 
 #filter data to only include data from April 2025 - October 2025
 
-df = df.filter("tpep_pickup_datetime >= '2025-04-01' AND tpep_pickup_datetime <= '2025-10-01'")
+df = df.filter("tpep_pickup_datetime >= '2025-04-01' AND tpep_pickup_datetime <= '2025-11-01'")
 
 # COMMAND ----------
 

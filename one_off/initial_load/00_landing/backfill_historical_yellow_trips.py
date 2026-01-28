@@ -6,7 +6,7 @@ import os
 # COMMAND ----------
 
 # process last 6 months of data
-dates_to_process = ['2025-04','2025-05','2025-06','2025-07','2025-08','2025-09']
+dates_to_process = ['2025-04','2025-05','2025-06','2025-07','2025-08','2025-09','2025-10']
 
 for date in dates_to_process:
     # Construct the URL for the parquet file corresponding to this month
